@@ -21,7 +21,7 @@
         lazy-rules
         :rules="[
           val => val !== null && val !== '' || 'กรุณากรอกอายุของคุณ',
-          val => val > 0 && val < 100 || 'กรุณาพิมพ์อายุจริง'
+          val => val > 0 && val < 100 || 'กรุณาพิมพ์อายุที่ถูกต้องน้ะจ๊ะ'
         ]"
       />
       <q-toggle v-model="accept" label="I accept the license and terms" />
